@@ -19,20 +19,30 @@ echo "🛠 Installing git & completions"
 brew install git
 brew install bash-completion
 
+echo "🚀 Go super-user!"
+sudo su
 # Add to bash profile.
 echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
 
 # git config
 # TODO 
 
+
 # Android Studio
-echo "🤖 Android Studion"
+echo "🤖 Android Studio"
 brew cask install android-studio
 
 # golang
 
 # VS Code
-brew install visual-studio-code
+brew cast install visual-studio-code
 
 # Addition
 # Slack / Skype
+
+echo "➡️ Almost done!"
+echo "Don't foret to:"
+echo "⭕️ Add Github public key: (pbcopy ~/.id_rsa.pub)"
+echo "⭕️ Install SDKs for Android development"
+echo "........"
+echo "🙌 Get excited!"
